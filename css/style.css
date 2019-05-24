@@ -2,7 +2,7 @@ body,
 html {
     height: 100%;
     width: 100%;
-    /*    overflow-x: hidden;*/
+    /*        overflow-x: hidden;*/
 
 }
 
@@ -32,6 +32,11 @@ a {
     letter-spacing: 1px;
 }
 
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .btn {
     box-shadow: 1px 1px 2px 2px #7c595996;
     border-radius: 1px solid blue;
@@ -40,8 +45,14 @@ a {
     background-color: white;
 }
 
+.btn:hover {
+    transform: translateY(-2px);
+    background-color: aquamarine;
+    color: white;
+}
+
 .slide {
-    height: 500px;
+    height: 550px;
 }
 
 .card-image {
@@ -92,4 +103,11 @@ a {
 
 .title {
     padding-left: 10px;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+    transition-duration: 1s;
+    box-shadow: 0px 0px 2px 3px #80808096;
 }
