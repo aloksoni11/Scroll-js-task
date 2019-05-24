@@ -1,0 +1,95 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    /*    overflow-x: hidden;*/
+
+}
+
+* {
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.nav {
+    /*    padding: 8px;*/
+    position: fixed;
+    width: 100%;
+    background-color: #f4a23d;
+    z-index: 2;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn {
+    box-shadow: 1px 1px 2px 2px #7c595996;
+    border-radius: 1px solid blue;
+    font-weight: 600;
+    color: orange;
+    background-color: white;
+}
+
+.slide {
+    height: 500px;
+}
+
+.card-image {
+    height: 250px;
+}
+
+#BGeeta {
+    width: 300%;
+    margin-left: 1360px;
+    transition: all;
+    transition-delay: .2s;
+    transition-duration: 2s;
+    overflow-x: hidden;
+
+}
+
+.Bgeeta {
+    transform: translate3d(-1360px, 0, 0);
+    transition-delay: .2s;
+    width: 100% !important;
+    transition-duration: .5s;
+    margin: 0;
+    overflow-x: hidden;
+
+
+}
+
+#UGeeta {
+    width: 300%;
+    margin-left: -1360px;
+    transition: all;
+    transition-delay: .2s;
+    transition-duration: 2s;
+    padding-top: 20px;
+    overflow-x: hidden;
+}
+
+.Ugeeta {
+    transform: translate3d(1360px, 0, 0);
+    transition-delay: .2s;
+    width: 100% !important;
+    transition-duration: .5s;
+    margin: 0;
+    overflow-x: hidden;
+
+
+}
+
+.title {
+    padding-left: 10px;
+}
