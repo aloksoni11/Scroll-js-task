@@ -3,16 +3,13 @@ html {
     height: 100%;
     width: 100%;
     /*        overflow-x: hidden;*/
-
 }
 
 * {
     font-family: 'Noto Sans', sans-serif;
-
 }
 
 .nav {
-    /*    padding: 8px;*/
     position: fixed;
     width: 100%;
     background-color: #f4a23d;
@@ -30,6 +27,8 @@ a {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 a:hover {
@@ -59,6 +58,24 @@ a:hover {
     height: 250px;
 }
 
+.card-image::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    z-index: 2;
+    margin: auto;
+    left: 0;
+}
+
+.card-image:hover::after {
+    background-color: rgba( 239, 237, 229, 0.353);
+    transition-timing-function: linear;
+    transition-duration: .5s;
+    content: "";
+}
+
 #BGeeta {
     width: 300%;
     margin-left: 1360px;
@@ -66,7 +83,6 @@ a:hover {
     transition-delay: .2s;
     transition-duration: 2s;
     overflow-x: hidden;
-
 }
 
 .Bgeeta {
@@ -76,8 +92,6 @@ a:hover {
     transition-duration: .5s;
     margin: 0;
     overflow-x: hidden;
-
-
 }
 
 #UGeeta {
@@ -97,8 +111,6 @@ a:hover {
     transition-duration: .5s;
     margin: 0;
     overflow-x: hidden;
-
-
 }
 
 .title {
@@ -110,4 +122,42 @@ a:hover {
     width: 100%;
     transition-duration: 1s;
     box-shadow: 0px 0px 2px 3px #80808096;
+}
+
+.details {
+    height: 100%;
+    width: 200px;
+    position: absolute;
+    /*    background-color: orange;*/
+    z-index: 50;
+    margin: auto;
+    right: 0;
+    top: 0;
+}
+
+.heading {
+    font-size: 16px;
+    color: rgb( 199, 197, 187);
+}
+
+.author {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.price {
+    font-size: 12px;
+}
+
+.fa {
+    color: white
+}
+
+.review {
+    font-size: 12px;
+}
+
+.checked {
+    color: deeppink;
 }

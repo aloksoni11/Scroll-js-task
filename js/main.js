@@ -6,7 +6,8 @@ function myFunction() {
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         document.getElementById("BGeeta").className = "Bgeeta";
         document.getElementById("UGeeta").className = "Ugeeta";
-    } else {
+    }
+    else {
         document.getElementById("BGeeta").className = "";
         document.getElementById("UGeeta").className = "";
     }
