@@ -20,4 +20,4 @@ function slider() {
     var sl = document.getElementById("slide");
     sl.innerHTML = "<img src='images/" + myArray[x] + ".jpg' class='img'/>";
 }
-window.setInterval(slider, 3000);
+window.setInterval(slider, 4000);
